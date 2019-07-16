@@ -1,0 +1,161 @@
+body{
+    
+
+
+    background-color: rgb(209, 172, 123);
+
+    font-size: 18px;
+
+    width: 980px;
+    
+    margin: auto auto;
+
+
+}
+
+
+h1{
+    font-size: 50px;
+
+    text-align: center;
+
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+h2{
+    font-size: 30px;
+
+    text-decoration: underline;
+
+    text-transform: capitalize;
+
+    color: navy;
+}
+
+
+p{
+    font-size: 18px;
+       
+    color: black;
+
+}
+
+
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+
+.search{
+    color: chartreuse;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.compte img{
+    
+    width: 50px;
+    height: 50px;
+    text-align: right;
+}
+
+header{
+   display: flex;
+    
+}
+
+
+nav>ul{
+    display: flex;    
+    list-style: none;
+    width: 980px;
+}
+
+
+nav>ul>li{
+    width: 196px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: navy
+
+}
+
+article{
+    display:flex;
+    height: 500px;
+   width: 500px;
+   margin-bottom: 50px; 
+}
+    
+
+article:last-child{
+    flex-direction: column;
+    
+}
+
+
+
+
+
+main{
+    width: 30px;
+    height: 20px;
+}
+
+
+article>img{
+    margin-bottom: 50px;
+}
+
+
+
+article:last-child{
+    flex-direction: column;
+    
+}
+
+article:last-child>ul{
+    position:absolute;
+    margin-left: 500px;
+    
+}
+
+article>p{
+    padding-left: 10px;
+}
+
+
+footer{
+    width: 980px;
+
+}
+
+
+footer>nav{
+    width: 490px;
+    
+}
+
+
+footer{
+    width: 980px;
+
+}
+
+
+footer>nav{
+    width: 490px;
+    height: 150px;
+    
+}
+
+footer>address{
+    width: 490px;
+    height: 150px;
+}
